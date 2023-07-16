@@ -1,15 +1,38 @@
-.navbar ul{
-    color: black;    
-}
-
 .new-pages{
     margin: 0;
     padding: 30px;
-    background-color: black;
+    background-color: color-mix(in xyz-d50, black 30%, green 20%);
 }
 
-.proyectos{
+.proyecto{
     margin: 0;
     padding: 30px;
-    background-color: black;
+    background-color: color-mix(in xyz-d50, white 20%, blue 90%);
 }
+
+.new-pages h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: color-mix(in xyz-d50, white 20%, blue 90%);
+    margin: 0;
+    padding: 10px 10px;
+}
+
+form{
+    padding: 10px;
+    background-color: color-mix(in xyz-d50, black 30%, green 20%);
+}
+
+@media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
